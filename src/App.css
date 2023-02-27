@@ -1,0 +1,94 @@
+body{
+  /* background-color: #FFDCFF; */
+}
+
+.btnPurple.btnPush {
+  box-shadow: 2px 2px 5px 0px #A74982;
+  border: none;
+  float: right;
+
+}
+
+.btnFade.btnPurple:hover {
+  background: #D65BC1;
+}
+.btnPurple {
+  background: #D65BC1;
+}
+button.button {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100px;
+  padding: 0;
+  margin: 0 10px 0 0;
+  font-weight: 600;
+  text-align: center;
+  line-height: 40px;
+  color: #FFF;
+  border-radius: 5px;
+  transition: all 0.2s ;
+}
+
+input {
+  width: 250px;
+  height: 32px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(233, 233, 233);
+}
+
+.app-style {
+  margin: 50px;
+  display: flex;
+  /* gap: 12px; */
+}
+
+.app-title{
+  color: #D65BC1;
+  margin: 50px;
+  display:flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app-test {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+
+  border: 6px solid #D65BC1;
+  border-radius: 20px ;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.app-reactButton{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 10px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.app-remove{
+  width: 60px;
+  height: 30px;
+  display: flex;
+
+  border: 2px solid red;
+  border-radius: 5px;
+
+  text-align: center;
+}
+
+/* //css에서 쓸때는 소문자 , - 신경써주기//
+//js에선 중간 대문자 객체배열!!!// */

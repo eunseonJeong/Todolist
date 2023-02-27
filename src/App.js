@@ -38,7 +38,7 @@ const App = () => {
   const clickRemoveButton = (id) => {
     const removeArr = todo.filter(user => user.id !== id);
     setTodo(removeArr)
-  }
+  };
 
   const clickCheckButton = (id) => {
     const checkArr = todo.map(item => {
